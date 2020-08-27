@@ -1,0 +1,73 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+a {
+    display:block;
+}
+
+a:first-child:hover {
+    color: lightblue; 
+    font-weight:bold;
+}
+
+a:nth-child(2):active {
+    color: red;
+    font-style: italic;
+}
+
+a:last-child {
+    color:yellow;
+}
+
+form {
+    margin: 40px;
+}
+
+form input:focus {
+    color: green;
+    font-size:20px;
+}
+
+nav {
+    color:white;
+    background-color: darkblue;
+    padding:0;
+}
+
+nav ul {
+    padding:0;
+}
+
+nav a {
+    list-style:none;
+    display:inline; 
+    margin:20px;
+    padding:10px;
+}
+
+nav li {
+    display:inline;
+    margin:10px;
+    padding:10px;
+}
+
+li:first-child a {
+    margin: 10px 10px 10px 0;
+    padding: 0;
+    color:pink;
+}
+
+a.menuitem:hover, a.menuitem:active {
+    background-color:lightblue;
+    color: black;
+}
+a.currentpage {
+    background-color: #6699cc;
+    color: green;
+}
+
+input[type="search"]:focus {
+    border: 20px solid green;
+}

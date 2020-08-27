@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<meta charset="utf-8" />
+
+<body>
+
+    <head>
+        <title>CSS Pseudo-classes</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <main>
+        <section>
+            <a href="#">Dit is een link met een :hover pseudo class</a>
+            <a href="#">Dit is een link met een :active pseudo class</a>
+            <a href="#">Dit is een link met een :visited pseudo class</a>
+        </section>
+        <form>
+            <label for="test">Form input:focus maakt de tekst in het veld groen: </label>
+            <input type="text" id="text" name="text">
+        </form>
+        <hr>
+        <section>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a class="menuitem" href="#">Menu1</a></li>
+                    <li><a class="menuitem currentpage" href="#">Menu2</a></li>
+                    <li><a class="menuitem" href="#">Menu3</a></li>
+                    <li><label for="site-search">Search the site:</label>
+                        <input class="border" type="search" id="site-search" name="q"
+                            aria-label="Search through site content"></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+</body>
+
+</html>
